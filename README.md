@@ -30,34 +30,48 @@ Dataset yang digunakan adalah Skin Cancer MNIST: HAM10000, dengan karakteristik:
 
 # Big Data Characteristics (5V + 3V)
 1. Volume
+
 Dataset terdiri dari lebih dari 10.000 citra medis beresolusi tinggi.
 Meskipun tidak berskala petabyte, ukuran ini cukup besar untuk analisis citra berbasis deep learning.
+
 2. Velocity
+
 Dataset bersifat statis (tidak real-time).
 Namun dalam implementasi nyata, data citra medis dapat berkembang menjadi sistem streaming (real-time diagnosis).
+
 3. Variety
+
 Memiliki variasi tinggi:
 - 7 kelas penyakit kulit
 - Data berupa citra + metadata
+
 4. Veracity
+
 Data berasal dari diagnosis medis ahli, namun tetap memiliki tantangan seperti:
 - Noise pada label
 - Class imbalance
+
 5. Value
+
 Memiliki nilai tinggi karena dapat digunakan untuk:
 - Deteksi dini kanker kulit
 - Pengembangan sistem AI di bidang kesehatan
-- Variability
+
+6. Variability
+
 Variasi tinggi pada:
 -  Bentuk dan warna lesi
 -  Kondisi pencahayaan
 -  Perbedaan alat pengambilan gambar
-- Visualization
+7. Visualization
+
 Dataset berbasis citra memungkinkan:
 -  Visualisasi langsung
 -  Heatmap (Grad-CAM)
 -  Analisis distribusi kelas
-- Validity
+  
+8. Validity
+
 Data dikumpulkan dari sumber medis terpercaya, namun tetap memerlukan:
 -  Validasi model
 -  Evaluasi performa yang ketat
