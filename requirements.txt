@@ -23,3 +23,84 @@ torchvision
 
 # Google Colab
 google-colab
+
+# Import
+## Standard Library
+import hashlib
+import os
+import random
+import shutil
+import warnings
+import zipfile
+from collections import defaultdict
+
+## Data Processing
+import numpy as np
+import pandas as pd
+
+## Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+import squarify
+
+## Image Processing
+from PIL import Image
+
+## Progress Monitoring
+from tqdm import tqdm
+
+## Machine Learning Utilities (Scikit-Learn)
+from sklearn.utils.class_weight import compute_class_weight
+from sklearn.preprocessing import label_binarize
+
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    roc_curve,
+    auc
+)
+
+## TensorFlow & Keras
+import tensorflow as tf
+
+from tensorflow.keras.preprocessing.image import (
+    ImageDataGenerator,
+    load_img,
+    img_to_array
+)
+
+from tensorflow.keras.applications import (
+    DenseNet201,
+    MobileNetV2
+)
+
+from tensorflow.keras.applications.densenet import (
+    preprocess_input as dense_preprocess
+)
+
+from tensorflow.keras.layers import (
+    GlobalAveragePooling2D,
+    Dense,
+    Dropout,
+    BatchNormalization
+)
+
+from tensorflow.keras.models import Model
+
+from tensorflow.keras.optimizers import Adam
+
+from tensorflow.keras.callbacks import (
+    EarlyStopping,
+    ReduceLROnPlateau
+)
+
+## PyTorch
+import torch
+from torchvision import transforms
+
+## Google Colab
+from google.colab import drive
+
+## Configuration
+warnings.filterwarnings("ignore")
