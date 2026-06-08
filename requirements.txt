@@ -1,37 +1,25 @@
-# Standard Library Imports
-import hashlib
-import os
-import random
-import shutil
-import warnings
-import zipfile
-from collections import defaultdict
+# Data Processing
+numpy
+pandas
 
-# Third-Party Library Imports (Data Science & Visualization)
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import squarify
-from PIL import Image
-from tqdm import tqdm
+# Visualization
+matplotlib
+seaborn
+squarify
 
-# Deep Learning Framework Imports (PyTorch & TensorFlow)
-import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from torchvision import transforms
+# Image Processing
+Pillow
 
-# Cloud Environment Imports (Google Colab)
-from google.colab import drive
+# Progress Bar
+tqdm
 
-# Configurations
-warnings.filterwarnings('ignore')
+# Machine Learning
+scikit-learn
 
-# Library yang di gunakan dalam model
-tensorflow==2.18.0
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.0
-seaborn==0.13.2
-scikit-learn==1.5.2
-Pillow==11.0.0
+# Deep Learning
+tensorflow
+torch
+torchvision
+
+# Google Colab
+google-colab
